@@ -3,7 +3,3 @@
 @import '@fontsource/inter/700.css'; /* Bold */
 
 @import 'tailwindcss';
-
-.mix-blend-difference {
-  mix-blend-mode: difference;
-}
