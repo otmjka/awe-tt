@@ -10,7 +10,7 @@ const PercentButtonClipped: FC<{
     <button
       className={cn(
         'relative flex-1 rounded-[10px] border border-[#E4E4E4] px-[10px] py-[5px] text-xs overflow-hidden',
-        'bg-white leading-[1.2]',
+        'bg-white leading-[1.2] font-semibold',
       )}
       type="button"
       onClick={onClick}

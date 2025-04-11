@@ -3,6 +3,9 @@ export default {
   content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
   theme: {
     extend: {
+      screens: {
+        lg: '1200px',
+      },
       fontFamily: {
         sans: [
           'Inter',
@@ -12,9 +15,6 @@ export default {
           'BlinkMacSystemFont',
           'sans-serif',
         ],
-      },
-      colors: {
-        blue: '#168ACD',
       },
     },
   },
